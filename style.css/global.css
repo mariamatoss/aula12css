@@ -1,0 +1,23 @@
+.exemplo{
+    width:100px;
+    height: 100px;
+    background-color: aquamarine;
+    transform: scaleY(25seg);
+}
+.container{
+    margin-top: 50px;
+    border:1px solid black ;
+    width:100px ;
+    height: 100px; ;
+}
+ .container__box{
+ width: 100px;
+ height: 100px;
+ background-color:yellow ;
+ transition: all 3s;
+ }
+  .container__box:hover {
+    height: 200px;
+    width: 500px;
+    
+  }
